@@ -1,6 +1,6 @@
 function birthdayCakeCandles(candles){
     let tallestCandle = candles[0]
-    let tallestCount = 0
+    let tallestCount = 1
     for (let i = 1; i < candles.length; i++){
         if (tallestCandle < candles[i]){
             tallestCandle = candles[i]
@@ -12,4 +12,4 @@ function birthdayCakeCandles(candles){
     return tallestCount
 }
 
-console.log(birthdayCakeCandles([1,2,1,2,3,3]))
+console.log(birthdayCakeCandles([3,1,2,1,2,3]))
