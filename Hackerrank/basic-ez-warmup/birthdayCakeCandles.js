@@ -5,11 +5,11 @@ function birthdayCakeCandles(candles){
         if (tallestCandle < candles[i]){
             tallestCandle = candles[i]
         }
-    }
-    for (let j = 0; j < candles.length; j++){
-        if (tallestCandle === candles[j]){
+        else if (tallestCandle === candles[i]){
             tallestCount++
         }
     }
     return tallestCount
 }
+
+console.log(birthdayCakeCandles([1,2,1,2,3,3]))
