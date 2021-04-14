@@ -9,4 +9,4 @@ function camelCase(s){
     return count + 1
 }
 
-camelCase('saveChangesToEditor')
+camelCase('saveChangesToEdit')
